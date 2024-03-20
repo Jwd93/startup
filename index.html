@@ -4,118 +4,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InnoCode Solutions</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 <body>
-    <header>
+    <header class="bg-dark text-white py-4">
         <div class="container">
-            <h1><img src="1.png" alt="Logo InnoCode Solutions" style= "margin-left: 0;"></h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">À propos</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#team">Équipe</a></li>
-                    <li><a href="#testimonials">Témoignages</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="m-0"><img src="1.png" alt="Logo InnoCode Solutions"></h1>
+                <nav>
+                    <ul class="list-inline m-0">
+                        <li class="list-inline-item"><a href="#about" class="text-white">À propos</a></li>
+                        <li class="list-inline-item"><a href="#services" class="text-white">Services</a></li>
+                        <li class="list-inline-item"><a href="#team" class="text-white">Équipe</a></li>
+                        <li class="list-inline-item"><a href="#testimonials" class="text-white">Témoignages</a></li>
+                        <li class="list-inline-item"><a href="#contact" class="text-white">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <div class="testimonial">
+                <p class="lead">"InnoCode Solutions a été un partenaire précieux dans la mise en place de notre système de gestion énergétique. Leur expertise et leur professionnalisme ont été remarquables."</p>
+                <cite class="d-block text-right">- Client satisfait</cite>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">À propos de nous</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://wp.innocode-cdn.com/innocode.no/uploads/2021/09/innocode-bild-1024x465.jpeg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <p class="lead">InnoCode Solutions se distingue comme une start-up visionnaire, repoussant les limites de l'innovation dans le domaine de la gestion énergétique. Nous nous engageons à développer des solutions logicielles avancées qui transforment la manière dont les ressources énergétiques sont gérées et optimisées.</p>
+                    <p class="lead">Notre équipe, composée d'experts chevronnés et de jeunes talents prometteurs, partage une passion commune pour l'innovation et l'impact positif.</p>
+                    <p class="lead">Chez InnoCode Solutions, nous croyons fermement à l'importance de la durabilité et de l'efficacité énergétique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="my-5">
+
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Nos Services</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service text-center p-4">
+                        <h3>Conception sur mesure</h3>
+                        <p class="lead">Des solutions personnalisées pour répondre à vos besoins spécifiques en gestion des ressources énergétiques.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service text-center p-4">
+                        <h3>Cybersécurité</h3>
+                        <p class="lead">Sécurisation avancée de vos systèmes et données pour un fonctionnement fiable et sécurisé de vos infrastructures.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service text-center p-4">
+                        <h3>Optimisation IT</h3>
+                        <p class="lead">Optimisation des infrastructures IT pour des performances durables et une efficacité accrue de vos opérations.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service text-center p-4">
+                        <h3>Consultation & Conseil</h3>
+                        <p class="lead">Expertise stratégique pour maximiser l'efficacité de vos ressources énergétiques.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
 
-    <section id="about">
-        <div class="container">
-            <h2>À propos de nous</h2>
-            <p>InnoCode Solutions est une start-up innovante spécialisée dans le développement de solutions logicielles pour la gestion intelligente des ressources énergétiques. Notre équipe est composée d'experts passionnés et hautement qualifiés.</p>
-        </div>
-    </section>
 
-    <section id="services">
+    
+    <section id="team" class="bg-light py-5">
         <div class="container">
-            <h2>Nos Services</h2>
-            <div class="services-grid">
-                <div class="service">
-                    <h3>Conception sur mesure</h3>
-                    <p>Nous concevons des solutions logicielles sur mesure adaptées à vos besoins spécifiques en gestion des ressources énergétiques.</p>
+            <h2 class="text-center mb-5">Notre Équipe</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="team-member text-center">
+                        <img src="https://www.dupuis.com/v5/img/visuels_resume/bouletetbill.jpg" alt="Jawed Hamed" class="img-fluid rounded-circle mb-3">
+                        <h3>Jawed Hamed</h3>
+                        <p class="text-muted">Co-fondateur et Directeur Technique</p>
+                    </div>
                 </div>
-                <div class="service">
-                    <h3>Cybersécurité</h3>
-                    <p>Nous assurons la sécurité de vos systèmes et données pour garantir un fonctionnement fiable et sécurisé de vos infrastructures.</p>
+                <div class="col-md-4">
+                    <div class="team-member text-center">
+                        <img src="https://media.licdn.com/dms/image/D4E03AQFruhwFYuRN2w/profile-displayphoto-shrink_800_800/0/1708960972285?e=1716422400&v=beta&t=ghxg065fnYan5iNNCj4KAF6t49v4OsZnZ6VVyx0pG6o" alt="Jamaleddine Boufelja" class="img-fluid rounded-circle mb-3">
+                        <h3>Jamaleddine Boufelja</h3>
+                        <p class="text-muted">Ingénieur en cybersécurité</p>
+                    </div>
                 </div>
-                <div class="service">
-                    <h3>Optimisation des infrastructures IT</h3>
-                    <p>Nous optimisons vos infrastructures IT pour des performances durables et une efficacité accrue de vos opérations.</p>
+                <div class="col-md-4">
+                    <div class="team-member text-center">
+                        <img src="https://femmedinfluence.fr/wp-content/uploads/2019/01/Capture-d%E2%80%99%C3%A9cran-2019-01-17-%C3%A0-17.26.00.jpg" alt="Merhdaoui Mohamed" class="img-fluid rounded-circle mb-3">
+                        <h3>Merhdaoui Mohamed</h3>
+                        <p class="text-muted">Co-fondateur et Directeur Marketing</p>
+                    </div>
                 </div>
-                <div class="service">
-                    <h3>Consultation et conseil</h3>
-                    <p>Nos experts vous fournissent des conseils stratégiques et une expertise approfondie pour maximiser l'efficacité de vos ressources énergétiques.</p>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="team-member text-center">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg/458px-Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg" alt="Lavey Rayan" class="img-fluid rounded-circle mb-3">
+                        <h3>Lavey Rayan</h3>
+                        <p class="text-muted">Ingénieur en cybersécurité</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-member text-center">
+                        <img src="https://static.wikia.nocookie.net/seigneur-des-anneaux/images/4/41/Gollum_hobbit.jpg/revision/latest?cb=20140824092651&path-prefix=fr" alt="Syed Zaidi Mohammad" class="img-fluid rounded-circle mb-3">
+                        <h3>Syed Zaidi Mohammad</h3>
+                        <p class="text-muted">Analyste des données</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    
+    
 
-    <section id="team">
+    <section id="contact" class="bg-light py-5">
         <div class="container">
-            <h2>Notre Équipe</h2>
-            <div class="team-grid">
-                
-                <div class="team-member">
-                    <h3>Jawed Hamed</h3>
-                    <p>Co-fondateur et Directeur Technique</p>
-                </div>
-                <div class="team-member">
-   
-                    <h3>Jamaleddine Boufelja</h3>
-                    <p>Ingénieur en cybersécurité</p>
-                </div>
-                <div class="team-member">
-               
-                    <h3>Merhdaoui Mohamed</h3>
-                    <p>Co-fondateur et Directeur Marketing</p>
-                </div>
-                <br><br>
-                <br>
-                <div class="team-member">
-              
-                    <h3>Lavey Rayan</h3>
-                    <p>Ingénieur en cybersécurité</p>
-                </div>
-            
-                <div class="team-member">
-                
-                    <h3>Syed zaidi Mohammad</h3>
-                    <p>Analyste des données</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="testimonials">
-        <div class="container">
-            <h2>Témoignages</h2>
-            <div class="testimonial">
-                <p>"InnoCode Solutions a été un partenaire précieux dans la mise en place de notre système de gestion énergétique. Leur expertise et leur professionnalisme ont été remarquables."</p>
-                <cite>- Client satisfait</cite>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Nous Contacter</h2>
+            <h2 class="text-center mb-4">Contact</h2>
             <form>
-                <input type="text" placeholder="Nom" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Message" required></textarea>
-                <button type="submit" class="btn">Envoyer</button>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Nom" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
             </form>
         </div>
     </section>
 
-    <footer>
+    <footer class="bg-dark text-white py-4">
         <div class="container">
-            <p>&copy; 2024 InnoCode Solutions. Tous droits réservés.</p>
+            <p class="m-0">&copy; 2024 InnoCode Solutions. Tous droits réservés.</p>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
